@@ -3,7 +3,6 @@ require "xavante"
 require "xavante.filehandler"
 
 port = ...
-print port
 
 xavante.HTTP {
   server = { host = "*", port = tonumber(port) },
